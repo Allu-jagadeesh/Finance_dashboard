@@ -1,0 +1,149 @@
+
+
+body {
+background-color: rgb(241, 236, 236);
+}
+
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+nav{
+    font-size: 30px;
+    padding: 3px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(210, 31, 40);
+   
+    position: relative;
+}
+
+.sidebar {
+background: #1e293b;
+color: white;
+min-height: 100vh;
+width: 64px;
+padding: 0 1.7rem;
+position: sticky;
+top: 0;
+overflow: hidden;
+transition: all 0.5s linear;
+}
+
+.sidebar:hover {
+width: 200px;
+transition: 0.5s;
+}
+
+.menu{
+margin-top: 2rem;
+padding: 0%;
+position: relative;
+}
+
+.menu li{
+    padding: 1rem;
+    margin:19px 0;
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menu li:hover{
+    background: #334155;
+    color: #f5f7fa;
+    transform: translateX(5px);
+    cursor: pointer;
+}
+
+.menu li a{
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+i{
+    padding-right: 6px;
+}
+
+.container {
+background: rgb(234, 204, 204);  
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+position: relative;
+}
+
+h2 {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: whitesmoke;
+background-color: rgb(75, 8, 109);
+padding-top: 10px;
+margin: 0;
+text-align: center;
+height: 60px;
+width: 100%;
+border-radius: 10px;
+box-shadow: 0 3px 6px rgba(13, 2, 2, 0.1);
+}
+
+.card {
+background-color: #1e293b;
+color: rgb(88, 185, 215);
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    width: 400px;
+    height: 110px;
+    transform: translateY(5px);
+    transition: all 0.5s linear;
+}
+
+.form-select {
+  margin-right: 5px;
+}
+
+.mt-5{
+background-color: #1e293b;
+padding: 7px;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+h4{
+    color: rgb(88, 185, 215);
+}
+.chart{
+    max-width: 600px;
+    height: 400px;
+}
+#income{
+    color: rgb(26, 152, 43);
+}
+#expenses{
+    color: rgb(152, 26, 26);
+}
+#balance{
+    color: rgb(224, 224, 237);
+}
+
+#adminPanel{
+background-color: #1e293b;
+color: rgb(44, 146, 169);
+padding: 7px;
+border-radius: 10px;
+box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+table {
+background: rgb(202, 98, 98);
+}
+
+
+#insights {
+font-weight: bold;
+color: #ce2e06;
+}
